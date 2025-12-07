@@ -57,5 +57,21 @@ The model reliably reconstructs normal dynamics and produces significantly highe
 
 ---
 
-## 🗂 Repo Structure
+---
+
+## 📝 Key Insight
+
+Even with limited data usage and window-stride sampling (due to memory limits), the autoencoder successfully separates normal and faulty behaviours. This setup mirrors real industrial constraints where full-resolution historical data is not always available.
+
+---
+
+## 🧩 Future Improvements
+- LSTM/GRU autoencoder for stronger temporal modeling  
+- Variational Autoencoder (VAE) for probabilistic scoring  
+- Isolation Forest / PCA baseline comparisons  
+- Streamlit dashboard for real-time anomaly monitoring  
+
+---
+
+
 
